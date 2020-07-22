@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox prefHeight="525.0" prefWidth="748.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+  <children>
+      <TitledPane alignment="CENTER" prefHeight="554.0" prefWidth="772.0" text="Main Menu" VBox.vgrow="ALWAYS">
+         <content>
+          <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="449.0" prefWidth="770.0">
+               <children>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="90.0" layoutY="83.0" onMouseClicked="#movieMaintenance" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../image/movie.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="516.0" layoutY="83.0" onMouseClicked="#seatMaintenance" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../image/seat.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="277.0" layoutY="83.0" onMouseClicked="#ticketMaintenance" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../image/ticket.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="298.0" layoutY="285.0" onMouseClicked="#exit" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../image/exit.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="107.0" layoutY="255.0" text="Movie Maintenance" />
+                  <Label layoutX="321.0" layoutY="255.0" text="Ticket Maintenance" />
+                  <Label layoutX="543.0" layoutY="255.0" text="Seat Maintenance" />
+               </children>
+          </AnchorPane>
+         </content>
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TitledPane>
+  </children>
+</VBox>

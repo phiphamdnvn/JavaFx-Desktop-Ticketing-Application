@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox prefHeight="430.0" prefWidth="680.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.MovieMaintenance">
+  <children>
+      <TitledPane alignment="CENTER" text="Movie Maintenance" VBox.vgrow="ALWAYS">
+         <content>
+          <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="410.0" prefWidth="678.0">
+            <children>
+                  <Button layoutX="99.0" layoutY="94.0" mnemonicParsing="false" onAction="#addMovie" text="Add New Movie">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="view" layoutX="395.0" layoutY="94.0" mnemonicParsing="false" onAction="#viewMovie" prefHeight="51.0" prefWidth="202.0" text="View All Movie">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="99.0" layoutY="199.0" mnemonicParsing="false" onAction="#deleteMovie" prefHeight="51.0" prefWidth="202.0" text="Delete Movie">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="395.0" layoutY="199.0" mnemonicParsing="false" onAction="#updateMovie" prefHeight="51.0" prefWidth="202.0" text="Update Movie">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Button>
+            </children>
+          </AnchorPane>
+         </content>
+      </TitledPane>
+  </children>
+</VBox>

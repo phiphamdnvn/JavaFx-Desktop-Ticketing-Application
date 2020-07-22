@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<TitledPane alignment="CENTER" prefHeight="688.0" prefWidth="894.0" text="Delete Seats" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <content>
+      <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0">
+         <children>
+            <Label alignment="CENTER" layoutX="324.0" layoutY="32.0" style="&#10;" text="Delete Seat Successfully !" textAlignment="CENTER" wrapText="false">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <ImageView fx:id="imageView" fitHeight="307.0" fitWidth="798.0" layoutX="58.0" layoutY="175.0" pickOnBounds="true" preserveRatio="true" />
+            <Button layoutX="439.0" layoutY="606.0" mnemonicParsing="false" onAction="#exit" text="Exit" />
+            <Label alignment="CENTER" layoutX="337.0" layoutY="114.0" style="&#10;" text="Standard Cinenma Hall" textAlignment="CENTER" wrapText="false">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </content>
+   <font>
+      <Font size="14.0" />
+   </font>
+</TitledPane>

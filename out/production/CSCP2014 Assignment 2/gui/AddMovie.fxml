@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<TitledPane alignment="CENTER" prefHeight="574.0" prefWidth="646.0" text="Add New Movie" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <content>
+      <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="396.0" prefWidth="677.0">
+         <children>
+            <Label layoutX="149.0" layoutY="85.0" text="ID" />
+            <Label layoutX="138.0" layoutY="136.0" text="Name" />
+            <Label layoutX="141.0" layoutY="177.0" text="Type" />
+            <Label layoutX="129.0" layoutY="226.0" text="Showtime" />
+            <Label layoutX="126.0" layoutY="276.0" prefHeight="18.0" prefWidth="53.0" text="Language" />
+            <Label layoutX="135.0" layoutY="320.0" text="Subtitle" />
+            <Label layoutX="118.0" layoutY="360.0" text="Classification" />
+            <TextField fx:id="id" layoutX="212.0" layoutY="81.0" prefHeight="26.0" prefWidth="261.0" />
+            <TextField fx:id="name" layoutX="212.0" layoutY="131.0" prefHeight="26.0" prefWidth="261.0" />
+            <TextField fx:id="type" layoutX="212.0" layoutY="172.0" prefHeight="26.0" prefWidth="261.0" />
+            <TextField fx:id="showtime" layoutX="212.0" layoutY="222.0" prefHeight="26.0" prefWidth="261.0" />
+            <TextField fx:id="language" layoutX="212.0" layoutY="272.0" prefHeight="26.0" prefWidth="261.0" />
+            <RadioButton fx:id="chinese" layoutX="212.0" layoutY="320.0" mnemonicParsing="false" text="Chinese" />
+            <RadioButton fx:id="bahasa" layoutX="379.0" layoutY="320.0" mnemonicParsing="false" text="Bahasa Malay" />
+            <ComboBox fx:id="classification" layoutX="212.0" layoutY="356.0" prefWidth="150.0" />
+            <Button layoutX="162.0" layoutY="445.0" mnemonicParsing="false" onAction="#add" text="Add" />
+            <Button layoutX="313.0" layoutY="445.0" mnemonicParsing="false" onAction="#reset" text="Reset" />
+            <Button layoutX="484.0" layoutY="441.0" mnemonicParsing="false" onAction="#exit" text="Exit" />
+            <Label layoutX="484.0" layoutY="226.0" text="(*format: 23:59)" />
+         </children>
+      </AnchorPane>
+   </content>
+   <font>
+      <Font size="14.0" />
+   </font>
+</TitledPane>

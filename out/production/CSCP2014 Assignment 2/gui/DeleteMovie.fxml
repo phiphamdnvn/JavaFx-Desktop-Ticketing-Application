@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<TitledPane alignment="CENTER" prefHeight="378.0" prefWidth="585.0" text="Delete Movie" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <content>
+      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="579.0" prefWidth="830.0">
+         <children>
+            <Label layoutX="365.0" layoutY="153.0" text="Choose one movie" />
+            <ComboBox fx:id="chooseMovie" layoutX="308.0" layoutY="214.0" prefHeight="26.0" prefWidth="214.0" />
+            <Button layoutX="240.0" layoutY="421.0" mnemonicParsing="false" onAction="#delete" text="Delete" />
+            <Button layoutX="510.0" layoutY="421.0" mnemonicParsing="false" onAction="#exit" text="Exit" />
+         </children>
+          </AnchorPane>
+   </content>
+   <font>
+      <Font size="14.0" />
+   </font>
+</TitledPane>

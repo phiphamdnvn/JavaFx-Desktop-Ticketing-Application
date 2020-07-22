@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<TitledPane alignment="CENTER" prefHeight="508.0" prefWidth="653.0" text="View All Ticket" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <content>
+      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="686.0" prefWidth="906.0">
+         <children>
+            <Label layoutX="415.0" layoutY="525.0" text="Choose Movie" />
+            <ComboBox fx:id="chooseMovie" layoutX="378.0" layoutY="549.0" onAction="#loadData" prefWidth="150.0" visibleRowCount="3" />
+            <TableView fx:id="table" layoutX="58.0" layoutY="14.0" prefHeight="494.0" prefWidth="790.0">
+              <columns>
+                <TableColumn fx:id="idCol" prefWidth="167.19997787475586" text="ID" />
+                  <TableColumn fx:id="seatCol" prefWidth="58.400054931640625" text="Seat" />
+                  <TableColumn fx:id="priceCol" prefWidth="68.0" text="Price" />
+                  <TableColumn fx:id="dateCol" minWidth="0.0" prefWidth="286.39996337890625" text="Date Of Purchase" />
+                  <TableColumn fx:id="phoneCol" prefWidth="208.79996337890623" text="Phone Number" />
+              </columns>
+            </TableView>
+         </children>
+      </AnchorPane>
+   </content>
+   <font>
+      <Font size="14.0" />
+   </font>
+</TitledPane>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<TitledPane alignment="CENTER" prefHeight="513.0" prefWidth="740.0" text="Update Ticket" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <content>
+      <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="526.0" prefWidth="773.0">
+         <children>
+            <Label alignment="CENTER" layoutX="303.0" layoutY="36.0" style="&#10;" text="Seat Information" textAlignment="CENTER" wrapText="false">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="124.0" layoutY="90.0" text="Current Seat" />
+            <Label layoutX="111.0" layoutY="183.0" text="Choose New Row" />
+            <Button layoutX="175.0" layoutY="406.0" mnemonicParsing="false" onAction="#update" text="Update" />
+            <Button layoutX="483.0" layoutY="406.0" mnemonicParsing="false" onAction="#exit" text="Exit" />
+            <TextField fx:id="currentSeat" editable="false" layoutX="293.0" layoutY="85.0" />
+            <ComboBox fx:id="seatRow" layoutX="294.0" layoutY="178.0" onAction="#chooseNewRow" prefWidth="150.0" />
+            <Label layoutX="100.0" layoutY="277.0" text="Choose New Number" />
+            <ComboBox fx:id="seatNumber" layoutX="294.0" layoutY="272.0" prefWidth="150.0" visibleRowCount="5" />
+         </children>
+      </AnchorPane>
+   </content>
+   <font>
+      <Font size="14.0" />
+   </font>
+</TitledPane>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<TitledPane alignment="CENTER" prefHeight="692.0" prefWidth="908.0" text="Delete Seats" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <content>
+      <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0">
+         <children>
+            <Label alignment="CENTER" layoutX="290.0" layoutY="552.0" style="&#10;" text="*You are only allowed to delete all 12 extended seats at Row E " textAlignment="CENTER" wrapText="false" />
+            <ImageView fx:id="imageView" fitHeight="409.0" fitWidth="799.0" layoutX="58.0" layoutY="101.0" pickOnBounds="true" preserveRatio="true" />
+            <Button layoutX="266.0" layoutY="610.0" mnemonicParsing="false" onAction="#delete" text="Delete" />
+            <Button layoutX="606.0" layoutY="610.0" mnemonicParsing="false" onAction="#exit" text="Exit" />
+            <Label alignment="CENTER" layoutX="335.0" layoutY="66.0" style="&#10;" text="Standard Cinenma Hall" textAlignment="CENTER" wrapText="false">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </content>
+   <font>
+      <Font size="14.0" />
+   </font>
+</TitledPane>

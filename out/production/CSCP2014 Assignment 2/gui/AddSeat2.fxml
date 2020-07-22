@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<TitledPane alignment="CENTER" text="Add Seats" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <content>
+      <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="698.0" prefWidth="946.0">
+         <children>
+            <Label alignment="CENTER" layoutX="171.0" layoutY="474.0" style="&#10;" text="*You are only allowed to add 12 seats simultaneously at Row E behind Row D" textAlignment="CENTER" wrapText="false">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="295.0" fitWidth="919.0" layoutX="26.0" layoutY="118.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/FixedSeat.png" />
+               </image>
+            </ImageView>
+            <Button layoutX="226.0" layoutY="569.0" mnemonicParsing="false" onAction="#goNext" text="Continue" />
+            <Button layoutX="662.0" layoutY="569.0" mnemonicParsing="false" onAction="#exit" text="Exit" />
+            <Label alignment="CENTER" layoutX="342.0" layoutY="34.0" style="&#10;" text="Standard Cinema Hall" textAlignment="CENTER" wrapText="false">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </content>
+   <font>
+      <Font size="14.0" />
+   </font>
+</TitledPane>

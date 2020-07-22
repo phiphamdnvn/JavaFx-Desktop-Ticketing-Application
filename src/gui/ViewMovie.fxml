@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<TitledPane alignment="CENTER" prefHeight="599.0" prefWidth="822.0" text="View Movie" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <content>
+      <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="569.0" prefWidth="822.0">
+         <children>
+            <TableView fx:id="table" layoutX="21.0" layoutY="73.0" prefHeight="346.0" prefWidth="778.0">
+               <columns>
+                  <TableColumn fx:id="idCol" prefWidth="71.19997787475586" text="id" />
+                  <TableColumn fx:id="nameCol" prefWidth="177.5999984741211" text="name" />
+                  <TableColumn fx:id="typeCol" prefWidth="172.0" text="type" />
+                  <TableColumn fx:id="timeSlotCol" prefWidth="77.60000610351562" text="showtime" />
+                  <TableColumn fx:id="languageCol" prefWidth="79.199951171875" text="language" />
+                  <TableColumn fx:id="subtitleCol" prefWidth="87.199951171875" text="subtitle" />
+                  <TableColumn fx:id="classificationCol" prefWidth="116.0001220703125" text="cassification" />
+               </columns>
+            </TableView>
+            <Button layoutX="389.0" layoutY="478.0" mnemonicParsing="false" onAction="#exit" text="Exit">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </content>
+   <font>
+      <Font size="14.0" />
+   </font>
+</TitledPane>

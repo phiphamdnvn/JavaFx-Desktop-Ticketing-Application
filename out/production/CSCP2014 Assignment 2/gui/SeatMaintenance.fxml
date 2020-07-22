@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox prefHeight="451.0" prefWidth="681.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.SeatMaintenance">
+  <children>
+      <TitledPane alignment="CENTER" text="Seat Maintenance" VBox.vgrow="ALWAYS">
+         <content>
+          <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="460.0" prefWidth="691.0">
+            <children>
+                  <Button layoutX="107.0" layoutY="94.0" mnemonicParsing="false" onAction="#addSeat" text="Add New Seat">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="398.0" layoutY="94.0" mnemonicParsing="false" onAction="#viewSeat" prefHeight="51.0" prefWidth="182.0" text="View All Seat">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="107.0" layoutY="224.0" mnemonicParsing="false" onAction="#deleteSeat" prefHeight="51.0" prefWidth="182.0" text="Delete Seat">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="398.0" layoutY="224.0" mnemonicParsing="false" onAction="#updateSeat" prefHeight="51.0" prefWidth="182.0" text="Update Seat">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Button>
+            </children>
+          </AnchorPane>
+         </content>
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TitledPane>
+  </children>
+</VBox>
